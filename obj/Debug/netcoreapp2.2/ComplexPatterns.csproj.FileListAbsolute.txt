@@ -1,0 +1,11 @@
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.deps.json
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.runtimeconfig.json
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.runtimeconfig.dev.json
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.dll
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.pdb
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.csprojAssemblyReference.cache
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.csproj.CoreCompileInputs.cache
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.AssemblyInfoInputs.cache
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.AssemblyInfo.cs
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.dll
+C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.pdb
