@@ -1,4 +1,5 @@
-﻿using ComplexPatterns.Strategy;
+﻿using ComplexPatterns.Adapter;
+using ComplexPatterns.Strategy;
 using System;
 
 namespace ComplexPatterns
@@ -19,6 +20,7 @@ namespace ComplexPatterns
             IQuack redheadDuck = new RedheadDuck();
             IQuack duckCall = new DuckCall();
             IQuack rubberDuck = new RubberDuck();
+            IQuack gooseDuck = new GooseAdapter(new Goose());
 
             Console.WriteLine("\r\nDuck Simulator");
 
@@ -26,6 +28,7 @@ namespace ComplexPatterns
             simulate(redheadDuck);
             simulate(duckCall);
             simulate(rubberDuck);
+            simulate(gooseDuck);
         }
 
         private void simulate(IQuack duck)
