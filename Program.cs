@@ -1,4 +1,5 @@
 ﻿using ComplexPatterns.Adapter;
+using ComplexPatterns.Decorator;
 using ComplexPatterns.Strategy;
 using System;
 
@@ -16,19 +17,21 @@ namespace ComplexPatterns
 
         private void simulate()
         {
-            IQuack mallardDuck = new MallardDuck();
-            IQuack redheadDuck = new RedheadDuck();
-            IQuack duckCall = new DuckCall();
-            IQuack rubberDuck = new RubberDuck();
+            IQuack mallardDuck = new QuackCounter(new MallardDuck());
+            IQuack redheadDuck = new QuackCounter(new RedheadDuck());
+            IQuack duckCall = new QuackCounter(new DuckCall());
+            IQuack rubberDuck = new QuackCounter(new RubberDuck());
             IQuack gooseDuck = new GooseAdapter(new Goose());
 
-            Console.WriteLine("\r\nDuck Simulator");
+            Console.WriteLine("\r\nDuck Simulator: With Decorator");
 
             simulate(mallardDuck);
             simulate(redheadDuck);
             simulate(duckCall);
             simulate(rubberDuck);
             simulate(gooseDuck);
+
+            Console.WriteLine("The ducks quacked " + QuackCounter.GetQuacks + " times");
         }
 
         private void simulate(IQuack duck)
