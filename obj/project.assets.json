@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\k.v.ezhov\\.nuget\\packages\\": {},
+    "C:\\Users\\123\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\k.v.ezhov\\Desktop\\App\\Head First\\ComplexPatterns\\ComplexPatterns.csproj",
+      "projectUniqueName": "C:\\Users\\123\\Desktop\\Design Patterns\\HeadFirst\\ComplexPatterns\\ComplexPatterns.csproj",
       "projectName": "ComplexPatterns",
-      "projectPath": "C:\\Users\\k.v.ezhov\\Desktop\\App\\Head First\\ComplexPatterns\\ComplexPatterns.csproj",
-      "packagesPath": "C:\\Users\\k.v.ezhov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\k.v.ezhov\\Desktop\\App\\Head First\\ComplexPatterns\\obj\\",
+      "projectPath": "C:\\Users\\123\\Desktop\\Design Patterns\\HeadFirst\\ComplexPatterns\\ComplexPatterns.csproj",
+      "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\123\\Desktop\\Design Patterns\\HeadFirst\\ComplexPatterns\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\k.v.ezhov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

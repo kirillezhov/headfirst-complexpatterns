@@ -1,4 +1,5 @@
-﻿using ComplexPatterns.Strategy;
+﻿using ComplexPatterns.Observer;
+using ComplexPatterns.Strategy;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -21,6 +22,16 @@ namespace ComplexPatterns.Decorator
         {
             duck.Quack();
             NumberOfQuacks++;
+        }
+
+        public void RegisterObserver(IObserver observer)
+        {
+            duck.RegisterObserver(observer);
+        }
+
+        public void NotifyObservers()
+        {
+            duck.NotifyObservers();
         }
     }
 }

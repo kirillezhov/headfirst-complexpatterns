@@ -2,6 +2,7 @@
 using ComplexPatterns.Adapter;
 using ComplexPatterns.Composite;
 using ComplexPatterns.Decorator;
+using ComplexPatterns.Observer;
 using ComplexPatterns.Strategy;
 using System;
 
@@ -25,8 +26,6 @@ namespace ComplexPatterns
             IQuack rubberDuck = duckFactory.CreatRubberDuck();
             IQuack gooseDuck = new GooseAdapter(new Goose());
 
-            Console.WriteLine("\r\nDuck Simulator: With Composite - Flocks");
-
             Flock flockOfDucks = new Flock();
 
             flockOfDucks.Add(redheadDuck);
@@ -47,13 +46,12 @@ namespace ComplexPatterns
             flockOfMallards.Add(mallardFour);
 
             flockOfDucks.Add(flockOfMallards);
-            flockOfDucks.Add(flockOfMallards);
 
-            Console.WriteLine("\r\nDuck Simulator: Whole Flock Simulation");
+            Console.WriteLine("\r\nDuck Simulator: With Observer");
+            Quacklogist quacklogist = new Quacklogist();
+            flockOfDucks.RegisterObserver(quacklogist);
+
             simulate(flockOfDucks);
-
-            Console.WriteLine("\r\nDuck Simulator: Mallard Flock Simulation");
-            simulate(flockOfMallards);
 
             Console.WriteLine("The ducks quacked " + QuackCounter.GetQuacks + " times");
         }

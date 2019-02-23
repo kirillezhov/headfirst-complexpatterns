@@ -1,4 +1,5 @@
-﻿using ComplexPatterns.Strategy;
+﻿using ComplexPatterns.Observer;
+using ComplexPatterns.Strategy;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +14,9 @@ namespace ComplexPatterns.Composite
         {
             quackers.Add(quacker);
         }
-        
+
+        public void NotifyObservers(){ }
+
         public void Quack()
         {
             //Iterator pattern
@@ -23,6 +26,16 @@ namespace ComplexPatterns.Composite
             {
                 IQuack quacker = iterator.Current;
                 quacker.Quack();
+            }
+        }
+
+        public void RegisterObserver(IObserver observer)
+        {
+            IEnumerator<IQuack> iterator = quackers.GetEnumerator();
+            while(iterator.MoveNext())
+            {
+                IQuack duck = iterator.Current;
+                duck.RegisterObserver(observer);
             }
         }
     }

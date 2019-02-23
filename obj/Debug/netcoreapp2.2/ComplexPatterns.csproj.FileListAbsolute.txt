@@ -9,3 +9,14 @@ C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.
 C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.AssemblyInfo.cs
 C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.dll
 C:\Users\k.v.ezhov\Desktop\App\Head First\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.pdb
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.deps.json
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.runtimeconfig.json
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.runtimeconfig.dev.json
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.dll
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\bin\Debug\netcoreapp2.2\ComplexPatterns.pdb
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.csprojAssemblyReference.cache
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.csproj.CoreCompileInputs.cache
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.AssemblyInfoInputs.cache
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.AssemblyInfo.cs
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.dll
+C:\Users\123\Desktop\Design Patterns\HeadFirst\ComplexPatterns\obj\Debug\netcoreapp2.2\ComplexPatterns.pdb

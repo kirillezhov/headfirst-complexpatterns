@@ -1,10 +1,11 @@
-﻿using System;
+﻿using ComplexPatterns.Observer;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ComplexPatterns.Strategy
 {
-    interface IQuack
+    interface IQuack : IQuackObservable
     {
         void Quack();
     }
